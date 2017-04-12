@@ -47,10 +47,21 @@
     <script>
         func calcimc() {
             var form = getElementById("IMC");
-            var altura = form.altura.value;
-            var peso = form.peso.value;
+            var altura = +form.altura.value;
+            var peso = +form.peso.value;
             var sexo = form.sexo.value;
-            alert("Você está gordo!");
+
+            if(sexo === "feminino") {
+                var IMC = peso / (altura*altura);
+                if( IMC > 28) {
+                    alert("Você está acima do peso");
+                }
+            } else {
+                var IMC = peso / (altura*altura);
+                if(IMC > 30) {
+                    alert("Você está acima do peso");
+                }
+            }
         }
     </script>
   </body>
