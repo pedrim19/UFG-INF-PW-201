@@ -146,3 +146,6 @@
 0:0:0:0:0:0:0:1 - - [11/Apr/2017:21:11:16 -0300] "GET /pedroandrade/? HTTP/1.1" 304 - http-bio-8080-exec-7 1
 0:0:0:0:0:0:0:1 - - [11/Apr/2017:21:11:16 -0300] "GET /pedroandrade/? HTTP/1.1" 304 - http-bio-8080-exec-7 1
 0:0:0:0:0:0:0:1 - - [11/Apr/2017:21:11:56 -0300] "GET /pedroandrade/? HTTP/1.1" 200 1937 http-bio-8080-exec-7 5
+0:0:0:0:0:0:0:1 - - [11/Apr/2017:21:40:13 -0300] "GET /pedroandrade/? HTTP/1.1" 200 2215 http-bio-8080-exec-10 16
+0:0:0:0:0:0:0:1 - - [11/Apr/2017:21:40:14 -0300] "GET /pedroandrade/?altura=&peso=&sexo= HTTP/1.1" 200 2215 http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [11/Apr/2017:21:47:09 -0300] "GET /pedroandrade/?altura=1.70&peso=60&sexo=feminino HTTP/1.1" 200 2435 http-bio-8080-exec-4 2
